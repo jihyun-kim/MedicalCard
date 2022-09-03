@@ -2,6 +2,8 @@
 Create image made by St.Vincent Hopital Medial Card 
 
 ### Down load
-$ git 
+$ git clone https://github.com/jihyun-kim/MedicalCard.git
+
+### Install npm node_modules
 $ npm install
 
