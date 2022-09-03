@@ -1,0 +1,39 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  color: #00B7FF;
+  font: 40px HYPost,"Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.p1 {
+  color: black;
+  text-align: center;
+  font: 60px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.p2 {
+  color: black;
+  text-align: center;
+  font: 40px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font: 34px HYPost,"Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+div {
+  background-color: white;
+  padding: 20px;
+  border: 3px solid maroon;
+  margin: 20px;
+}

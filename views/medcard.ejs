@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>MedicalCard</title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+    <body>
+        <div>
+        <form action="/medcard" method="post">
+            <h1 class="center">진료 카드</h1>
+            <p class="center">[이미지 다운로드]하시고 다운로드한 진료카드를 사용해주세요.</p>
+            <p class="p1"> <%= name %> </p>
+            <img src="/medcard/Barcodes?idno=<%= idno %>&name=<%= name %>" height="100" width="50" class="center">    
+            <p class="p2"> <%= idno %> </p>
+            <input type="hidden" name="idno"  value="<%= idno %>" >        
+            <input type="hidden" name="name" value="<%= name %>" >    
+            <p class="'center"______>
+            <input type="submit" value="이미지 다운로드" style="width:250px;height:60px;font-size:30px;" class="center">
+        </form>
+        </div>
+    </body>
+</html>
