@@ -30,7 +30,7 @@ generateBaseImages = function(){
     })
 
     //병원2 로고
-    loadImage('./public/images/top2_logo.png').then(image => {
+    loadImage('./public/images/top5.png').then(image => {
         // 바코드 이미지
         context.drawImage(image, 700, 163, 546, 136)
         const buffer = canvas.toBuffer('image/png')
