@@ -26,7 +26,7 @@ exports.generateImages = function(idno, name){
 
 		//바탕 이미지
 		loadImage('./public/images/under_logo.png').then(image => {
-			context.drawImage(image, 20, 500, 546, 136)
+			context.drawImage(image, 10, 500, 600, 220)
 		})
 
 		// 기본 배경 
