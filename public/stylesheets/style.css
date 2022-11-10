@@ -1,47 +1,39 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url('../images/base_medcard.png');
-  background-repeat : no-repeat;
-  width: 600px;
-  height: 887px;
 }
 
 a {
   color: #00B7FF;
 }
 
-
-.p1 {
-  width: 500px;
-  color: black;
-  text-align: center;
-  margin: 10px;
-  font:50px "Lucida Grande", Helvetica, Arial, sans-serif;
+p {
+  color: #00B7FF;
+  font: 40px HYPost,"Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-
-.p2 {
-  width: 500px;
+.p1 {
   color: black;
-  margin: 10px;
+  text-align: center;
+  font: 60px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.p2 {
+  color: black;
   text-align: center;
   font: 40px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 .center {
   display: block;
-  background-color: blue;
-  color: #00B7FF;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  font: 34px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 60%;
+  font: 34px HYPost,"Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 div {
-  width: 300px;
-  height: 250px;
-  margin: 10px;
+  background-color: white;
   padding: 20px;
+  border: 3px solid maroon;
+  margin: 20px;
 }
