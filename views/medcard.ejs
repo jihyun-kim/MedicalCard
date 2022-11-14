@@ -5,18 +5,39 @@
         <link rel='stylesheet' href='/stylesheets/style.css' />
     </head>
     <body>
-        <div>
         <form action="/medcard" method="post">
-            <h1 class="center">진료 카드</h1>
-            <p class="center">[이미지 다운로드]하시고 다운로드한 진료카드를 사용해주세요.</p>
-            <p class="p1"> <%= name %> </p>
-            <img src="/medcard/Barcodes?idno=<%= idno %>&name=<%= name %>" height="100" width="50" class="center">    
-            <p class="p2"> <%= idno %> </p>
-            <input type="hidden" name="idno"  value="<%= idno %>" >        
-            <input type="hidden" name="name" value="<%= name %>" >    
-            <p class="'center"______>
-            <input type="submit" value="이미지 다운로드" style="width:250px;height:60px;font-size:30px;" class="center">
+
+
+            <div class="content_wrap">
+                <table>
+                    <h1>진료카드</h1>
+                    <tr>
+                        <td>[이미지 다운로드] 하시고</td>
+                    </tr>
+                    <tr>
+                        <td>다운로드한 진료카드를 사용해주세요</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class = "content_wrap">
+                <h2> <%= name %> </h2>
+                <p style="text-align:center">
+                    <img src="/medcard/Barcodes?idno=<%= idno %>&name=<%= name %>" height="100" width="400">    
+                </p>
+                <h2> <%= idno %> </h2>
+            </div>
+            
+            <div style="text-align:center; margin-bottom:30px;" >
+                <img style="width:25%;" src="images/top_logo.png" alt="성빈센트병원 타이틀 이미지">
+            </div>
+
+            <div class="btn_wrap" style="margin-bottom: 15px;">
+                <input type="submit" value="이미지 다운로드" class="btn">
+                <input type="hidden" name="idno"  value="<%= idno %>" >        
+                <input type="hidden" name="name" value="<%= name %>" >    
+            </div>
+        
         </form>
-        </div>
     </body>
 </html>
