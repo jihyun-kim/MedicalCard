@@ -1,39 +1,67 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body,html {
+  background-color:#fff;
 }
 
-a {
-  color: #00B7FF;
+.content_wrap {
+  width:95%;
+  max-width:600px;
+  height:auto;
+  font-family:'NBGothic';
+  margin:15px auto;
+  box-sizing:border-box;
+  background-color:#fff;
+  color:#000;
+  padding:10px;
+  font-size:16px;
+  line-height:25px;
 }
 
-p {
-  color: #00B7FF;
-  font: 40px HYPost,"Lucida Grande", Helvetica, Arial, sans-serif;
+.content_wrap h1 {
+  font-family:'NBGothicB';
+  font-size:80px;
+  text-align:center;
 }
 
-.p1 {
-  color: black;
-  text-align: center;
-  font: 60px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-.p2 {
-  color: black;
-  text-align: center;
-  font: 40px "Lucida Grande", Helvetica, Arial, sans-serif;
+.content_wrap h2 {
+  font-family:'NBGothicB';
+  font-size:50px;
+  text-align:center;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  font: 34px HYPost,"Lucida Grande", Helvetica, Arial, sans-serif;
+.content_wrap table {
+  width:100%;
+  text-align:center;
+}
+.content_wrap table td {
+  vertical-align:top;
+  padding:5px;
+  font-size:30px;
+  font-weight: bolder;
+  color:blue;
 }
 
-div {
-  background-color: white;
-  padding: 20px;
-  border: 3px solid maroon;
-  margin: 20px;
+
+.btn_wrap {
+  width:100%;
+  max-width:600px;
+  text-align:center;
+  box-sizing:border-box;
+  padding:0 10px;
+  margin:0 auto;
+  margin-bottom:50px;
+}
+
+.btn {
+  background-color:blue;
+  color:#fff;
+  padding:20px 30px;
+  text-align:center;
+  font-family:'NBGothicB';
+  font-size:40px;
+  font-weight: bolder;
+  border:none;
+  cursor:pointer;
+  margin-top:5px;
+  width:100%;
+  border-radius: 25px 25px;
 }
