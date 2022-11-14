@@ -18,13 +18,13 @@ body,html {
 
 .content_wrap h1 {
   font-family:'NBGothicB';
-  font-size:80px;
+  font-size:100px;
   text-align:center;
 }
 
 .content_wrap h2 {
   font-family:'NBGothicB';
-  font-size:50px;
+  font-size:80px;
   text-align:center;
 }
 
@@ -57,7 +57,7 @@ body,html {
   padding:20px 30px;
   text-align:center;
   font-family:'NBGothicB';
-  font-size:40px;
+  font-size:60px;
   font-weight: bolder;
   border:none;
   cursor:pointer;
